@@ -1,0 +1,70 @@
+﻿industry_id,industry_name_en,industry_name_vn
+51,Security,An Ninh / Bảo Vệ
+58,HSE,An toàn lao động
+31,Sales / Business Development,Bán hàng / Kinh doanh
+30,Retail / Wholesale,Bán lẻ / Bán sỉ
+23,Insurance,Bảo hiểm
+28,Real Estate,Bất động sản
+38,Interpreter/ Translator,Biên phiên dịch
+32,Telecommunications,Bưu chính viễn thông
+52,Animal Husbandry / Veterinary,Chăn nuôi / Thú y
+46,Stock,Chứng khoán
+63,IT - Hardware / Network,CNTT - Phần cứng / Mạng
+1,IT - Software,CNTT - Phần mềm
+69,Biotechnology,Công nghệ sinh học
+70,Food Tech / Nutritionist,Công nghệ thực phẩm / Dinh dưỡng
+14,Mechanical / Auto / Automotive,Cơ khí / Ô tô / Tự động hóa
+26,Oil / Gas,Dầu khí
+39,Textiles / Garments / Fashion,Dệt may / Da giày / Thời trang
+12,Customer Service,Dịch vụ khách hàng
+34,Tourism,Du lịch
+7,Pharmacy / Chemical Eng. / Cosmetics,Dược phẩm/ Hóa Mỹ Phẩm
+48,Electrical / Electronics / Refrigeration / Industrial Electrical,Điện / Điện tử / Điện lạnh / Điện công nghiệp
+35,Wood,Đồ gỗ
+15,Entertainment,Giải trí
+13,Education /Training,Giáo dục / Đào tạo
+10,Household / Personal Care,Hàng gia dụng / Chăm sóc cá nhân
+61,Marine,Hàng hải
+60,Aviation,Hàng không
+3,Administrative / Clerical,Hành chính / Thư ký
+41,Chemical Eng.,Hóa học
+64,Printing / Publishing,In ấn / Xuất bản
+2,Accounting / Auditing / Tax,Kế toán / Kiểm toán
+65,Mineral,Khoáng sản
+6,Architect,Kiến trúc
+44,Unskilled Workers,Lao động phổ thông
+24,Law / Legal Services,Luật / Pháp lý
+16,Environmental,Môi trường
+45,Entry Level / Internship,Mới tốt nghiệp / Thực tập
+11,Arts / Creative Design,Mỹ thuật / Nghệ thuật / Thiết kế
+19,Banking,Ngân hàng
+29,Restaurant / Hotel,Nhà hàng / Khách sạn
+22,Human Resources,Nhân sự
+47,Interior / Exterior,Nội ngoại thất
+5,Agriculture,Nông nghiệp
+20,NGO / Non-Profit,Phi chính phủ / Phi lợi nhuận
+42,Quality Control  (QA/QC),Quản lý chất lượng (QA/QC)
+17,Executive management,Quản lý điều hành
+67,Advertising / PR / Communications,Quảng cáo / Đối ngoại / Truyền Thông
+25,Manufacturing / Process,Sản xuất / Vận hành sản xuất
+59,Finance / Investment,Tài chính / Đầu tư
+36,Statistics,Thống kê
+43,Purchasing / Merchandising,Thu mua / Vật tư
+53,Irrigation,Thủy lợi
+49,Fishery,Thủy sản / Hải sản
+57,Library,Thư viện
+21,Food & Beverage (F&B),Thực phẩm & Đồ uống
+4,Marketing,Tiếp thị / Marketing
+37,Online Marketing,Tiếp thị trực tuyến
+68,Event,Tổ chức sự kiện
+54,Surveying / Geology,Trắc địa / Địa Chất
+66,TV / Newspaper / Editors,Truyền hình / Báo chí / Biên tập
+9,Consulting,Tư vấn
+33,Freight / Logistics / Warehouse,Vận chuyển / Giao nhận /  Kho vận
+8,Civil / Construction,Xây dựng
+18,Import / Export,Xuất nhập khẩu
+56,Medical Services/ Healthcare/ Personal Care/ Beauty,Y tế / Chăm sóc sức khỏe / Thẩm mỹ / Làm đẹp
+72,Sales Engineer/ Technical Sales,Bán Hàng Kỹ Thuật
+71,Maintenance,Bảo trì / Sửa chữa
+27,Others,Ngành khác
+73,Ecommerce,Thương mại điện tử

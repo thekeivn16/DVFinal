@@ -1,0 +1,53 @@
+
+\subsection{Mục tiêu 4: Phân tích tương quan giữa lương, kinh nghiệm và vị thế premium}
+
+
+Tổng quan: Mục tiêu này tập trung trả lời câu hỏi liệu vị thế premium trong tuyển dụng đóng vai trò là một lợi thế cạnh tranh cho các vị trí hấp dẫn hay là công cụ hỗ trợ cho những vị trí khó tuyển dụng, Thông qua việc kết hợp các biến số về lương, kinh nghiệm và độ khẩn cấp.
+
+\textbf{Lý do lựa chọn biểu đồ}
+
+Để giải quyết bài toán phân tích chiến lược tuyển dụng dựa trên ba biến số chính (lương, kinh nghiệm, premium):
+
+\begin{itemize}
+    \item \textbf{Biểu đồ phân tán - Lương khởi điểm và năm kinh nghiệm:}
+    \begin{itemize}
+        \item \textit{Encoding/channels:} Sử dụng vị trí trên trục X và trục Y. Đây là kênh thị giác có độ chính xác cao nhất để so sánh các biến định lượng.
+        \item \textit{Markers:} Các điểm cho phép quan sát mật độ tập trung và các điểm ngoại lệ.
+        \item \textit{Mục đích:} Xác định các "điểm ngọt" của thị trường và ngưỡng trần lương theo số năm công tác.
+    \end{itemize}
+    
+    \item \textbf{Biểu đồ tròn - Chiến lược tuyển dụng:}
+    \begin{itemize}
+        \item \textit{Encoding/channels:} Sử dụng góc độ và diện tích kết hợp với màu sắc để phân loại 4 nhóm chiến lược: Thường/không gấp, Thường/gấp, Premium/không gấp, Premium/gấp.
+        \item \textit{Mục đích:} Phản ánh tỷ trọng thị trường, làm nổi bật sự khan hiếm của các vị trí premium.
+    \end{itemize}
+    
+    \item \textbf{Biểu đồ thanh ngang - Phân loại theo ngành:}
+    \begin{itemize}
+        \item \textit{Encoding/channels:} Độ dài của thanh để biểu thị khối lượng công việc.
+        \item \textit{Mục đích:} So sánh quy mô giữa các ngành nghề, giúp nhận diện các lĩnh vực đang áp dụng chiến lược "Boost" mạnh mẽ nhất.
+    \end{itemize}
+\end{itemize}
+
+\textbf{Nhận xét}
+
+
+\begin{itemize}
+    \item \textbf{Ngưỡng tâm lý 50 triệu VNĐ:} Biểu đồ phân tán cho thấy một đường thẳng đứng các điểm dữ liệu tập trung tại đúng mốc 50M. Điều này phản ánh xu hướng các doanh nghiệp sử dụng con số này như một "chuẩn mực" cho các vị trí quản lý, bất kể số năm kinh nghiệm dao động từ 5 đến 15 năm.
+    \item \textbf{Nghịch lý kinh nghiệm - lương:} Xuất hiện một nhóm các công việc yêu cầu kinh nghiệm rất cao (15–25 năm) nhưng mức lương lại chỉ dao động trong khoảng 20M–30M. Đây là các điểm đại diện cho nhóm công việc vận hành truyền thống, nơi thâm niên được ưu tiên hơn tính đột phá về kỹ năng.
+    \item \textbf{Chiến lược "Boost" tại ngành bán hàng / kinh doanh:} Đây là ngành có khối lượng tin tuyển dụng lớn nhất. Việc áp dụng premium kèm độ khẩn cấp cao tại đây cho thấy nỗ lực bù đắp visibility cho các vị trí có áp lực doanh số lớn và tỷ lệ đào thải cao.
+    \item \textbf{Chiến lược "Elite" tại ngành tài chính / đầu tư:} Ngược lại với bán hàng, ngành này tập trung các điểm dữ liệu ở phân khúc lương cao (50M+) với độ khẩn cấp thấp. Premium ở đây được dùng để khẳng định uy tín và thu hút nhân tài chuyên biệt.
+    \item \textbf{Sự giao thoa tại ngành ngân hàng:} Ngành này thể hiện sự kết hợp giữa khối lượng tuyển dụng lớn và tính chuyên môn cao. Khác với bán hàng, ngân hàng có dải lương ổn định hơn và tập trung premium vào nhóm nhân sự có kinh nghiệm từ 3 đến 7 năm để đảm bảo tính kế thừa.
+    \item \textbf{Tính đặc thù của ngành CNTT - phần mềm:} Ghi nhận mức lương khởi điểm cao nhưng tỷ lệ premium thấp. Điều này phản ánh đặc thù thị trường công nghệ, nơi sức hút nằm ở dự án và công nghệ hơn là các hình thức quảng bá tin tuyển dụng.
+    \item \textbf{So sánh chiến lược giữa các ngành:} Có sự phân cực rõ rệt: các ngành có tính cạnh tranh lao động cao (bán hàng, ngân hàng) dùng premium như một công cụ tranh giành sự chú ý, trong khi các ngành chuyên sâu (tài chính, CNTT) ưu tiên dùng mức lương minh bạch làm phễu lọc ứng viên.
+    \item \textbf{Điểm ngoại lệ "Elite":} Một số ít vị trí đạt mức lương 100M nhưng chỉ yêu cầu khoảng 8-10 năm kinh nghiệm. Đây là những vị trí hiếm thường đi kèm với các quyền lợi premium để thu hút nhân tài xuất sắc.
+\end{itemize}
+
+\textbf{Insights} 
+
+
+\begin{enumerate}
+    \item \textbf{Premium là công cụ hỗ trợ cho nhóm entry-level:} Trong các ngành có tỷ lệ biến động nhân sự cao (như bán hàng), premium được sử dụng để đẩy mạnh hiển thị cho các vị trí lương thấp nhưng khẩn cấp. Ở đây, premium bù đắp cho sự thiếu hụt về sức hấp dẫn của mức lương (Case A).
+    \item \textbf{Premium là lợi thế cạnh tranh cho nhóm senior:} Đối với các vai trò đòi hỏi 5–12 năm kinh nghiệm và mức lương từ 50M trở lên, premium không dùng để "tuyển gấp" mà để khẳng định vị thế doanh nghiệp và thu hút các ứng viên thụ động (Case B).
+    \item \textbf{Sự bão hòa của thâm niên:} Dữ liệu chứng minh rằng sau 15 năm kinh nghiệm, tỷ lệ tăng trưởng lương bắt đầu đi ngang. Vị thế premium trong giai đoạn này ít tạo ra sự khác biệt so với các nhóm kinh nghiệm trung hạn (Case C), cho thấy thị trường ưu tiên "năng lực thực chiến" hơn là thâm niên đơn thuần.
+\end{enumerate}
