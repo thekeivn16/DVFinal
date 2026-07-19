@@ -1,0 +1,71 @@
+ngành,-1,1,Difference,Is Balanced
+50,10,9,-1,False
+An Ninh / Bảo Vệ,21,50,29,False
+An toàn lao động,125,148,23,False
+Biên phiên dịch,309,130,-179,False
+Bán Hàng Kỹ Thuật,269,149,-120,False
+Bán hàng / Kinh doanh,2859,1906,-953,False
+Bán lẻ / Bán sỉ,979,663,-316,False
+Bưu chính viễn thông,105,39,-66,False
+Bảo hiểm,75,327,252,False
+Bảo trì / Sửa chữa,474,426,-48,False
+Bất động sản,742,672,-70,False
+CNTT - Phần cứng / Mạng,173,295,122,False
+CNTT - Phần mềm,369,587,218,False
+Chăn nuôi / Thú y,40,27,-13,False
+Chứng khoán,57,174,117,False
+Công nghệ sinh học,51,110,59,False
+Công nghệ thực phẩm / Dinh dưỡng,114,163,49,False
+Cơ khí / Ô tô / Tự động hóa,930,866,-64,False
+Du lịch,69,121,52,False
+Dược phẩm/ Hóa Mỹ Phẩm,324,228,-96,False
+Dầu khí,24,40,16,False
+Dệt may / Da giày / Thời trang,381,301,-80,False
+Dịch vụ khách hàng,1021,607,-414,False
+Giáo dục / Đào tạo,749,274,-475,False
+Giải trí,21,32,11,False
+Hàng gia dụng / Chăm sóc cá nhân,91,61,-30,False
+Hàng hải,17,52,35,False
+Hàng không,16,21,5,False
+Hành chính / Thư ký,937,655,-282,False
+Hóa học,118,191,73,False
+In ấn / Xuất bản,55,57,2,False
+Khoáng sản,5,5,0,True
+Kiến trúc,729,424,-305,False
+Kế toán / Kiểm toán,1593,1108,-485,False
+Lao động phổ thông,186,48,-138,False
+Luật / Pháp lý,368,431,63,False
+Môi trường,130,111,-19,False
+Mới tốt nghiệp / Thực tập,214,119,-95,False
+Mỹ thuật / Nghệ thuật / Thiết kế,406,301,-105,False
+Ngành khác,193,162,-31,False
+Ngân hàng,772,1646,874,False
+Nhà hàng / Khách sạn,340,228,-112,False
+Nhân sự,839,585,-254,False
+Nông nghiệp,66,88,22,False
+Nội ngoại thất,431,283,-148,False
+Phi chính phủ / Phi lợi nhuận,0,3,3,False
+Quản lý chất lượng (QA/QC),361,466,105,False
+Quản lý điều hành,461,396,-65,False
+Quảng cáo / Đối ngoại / Truyền Thông,367,293,-74,False
+Sản xuất / Vận hành sản xuất,973,1126,153,False
+Thu mua / Vật tư,285,288,3,False
+Thư viện,5,6,1,False
+Thương mại điện tử,352,164,-188,False
+Thống kê,73,62,-11,False
+Thủy lợi,18,6,-12,False
+Thủy sản / Hải sản,16,13,-3,False
+Thực phẩm & Đồ uống,460,361,-99,False
+Tiếp thị / Marketing,1179,771,-408,False
+Tiếp thị trực tuyến,270,160,-110,False
+Truyền hình / Báo chí / Biên tập,131,78,-53,False
+Trắc địa / Địa Chất,44,24,-20,False
+Tài chính / Đầu tư,961,1371,410,False
+Tư vấn,715,216,-499,False
+Tổ chức sự kiện,65,38,-27,False
+Vận chuyển / Giao nhận /  Kho vận,632,454,-178,False
+Xuất nhập khẩu,369,401,32,False
+Xây dựng,1751,1079,-672,False
+Y tế / Chăm sóc sức khỏe / Thẩm mỹ / Làm đẹp,491,382,-109,False
+Điện / Điện tử / Điện lạnh / Điện công nghiệp,1071,889,-182,False
+Đồ gỗ,58,122,64,False
