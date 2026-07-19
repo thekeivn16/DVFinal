@@ -1,0 +1,38 @@
+{
+    "text_only": {
+        "raw_response": "{\"steps\": [{\"explanation\": \"Xác định loại câu hỏi\", \"output\": \"Đây là câu chào hỏi, không cần phân tích dữ liệu.\"}], \"explanation\": \"Xin chào! Tôi là AI Mock Agent. Tôi không sinh ra code cho câu hỏi này.\", \"code\": null}",
+        "thinking": "1. Xác định loại câu hỏi → Đây là câu chào hỏi, không cần phân tích dữ liệu.",
+        "explanation": "Xin chào! Tôi là AI Mock Agent. Tôi không sinh ra code cho câu hỏi này.",
+        "code": null
+    },
+    "matplotlib": {
+        "raw_response": "{\"steps\": [{\"explanation\": \"Xác định yêu cầu\", \"output\": \"Cần vẽ biểu đồ cơ bản bằng Matplotlib.\"}, {\"explanation\": \"Chọn loại biểu đồ\", \"output\": \"Dùng line plot với marker.\"}], \"explanation\": \"Tôi sẽ vẽ một biểu đồ đường cơ bản bằng Matplotlib.\", \"code\": \"import matplotlib.pyplot as plt\\n\\nfig, ax = plt.subplots()\\nax.plot([1, 2, 3, 4], [10, 20, 25, 30], marker='o')\\nax.set_title('Demo Matplotlib Chart')\\nax.set_xlabel('X Axis')\\nax.set_ylabel('Y Axis')\"}",
+        "thinking": "1. Xác định yêu cầu → Cần vẽ biểu đồ cơ bản bằng Matplotlib.\n2. Chọn loại biểu đồ → Dùng line plot với marker.",
+        "explanation": "Tôi sẽ vẽ một biểu đồ đường cơ bản bằng Matplotlib.",
+        "code": "import matplotlib.pyplot as plt\n\nfig, ax = plt.subplots()\nax.plot([1, 2, 3, 4], [10, 20, 25, 30], marker='o')\nax.set_title('Demo Matplotlib Chart')\nax.set_xlabel('X Axis')\nax.set_ylabel('Y Axis')"
+    },
+    "plotly_and_table": {
+        "raw_response": "{\"steps\": [{\"explanation\": \"Xác định yêu cầu\", \"output\": \"Cần tạo biểu đồ Plotly và bảng dữ liệu.\"}, {\"explanation\": \"Chọn công cụ\", \"output\": \"Dùng plotly.express cho biểu đồ bar và pandas DataFrame cho bảng.\"}], \"explanation\": \"Dưới đây là ví dụ trả về biểu đồ Plotly và một Dataframe hiển thị dưới dạng bảng.\", \"code\": \"import pandas as pd\\nimport plotly.express as px\\n\\ndata = {'Tháng': ['T1', 'T2', 'T3', 'T4'], 'Doanh thu': [150, 200, 300, 250]}\\nresult_df = pd.DataFrame(data)\\n\\nfig = px.bar(result_df, x='Tháng', y='Doanh thu', title='Demo Plotly & Table', color='Tháng')\"}",
+        "thinking": "1. Xác định yêu cầu → Cần tạo biểu đồ Plotly và bảng dữ liệu.\n2. Chọn công cụ → Dùng plotly.express cho biểu đồ bar và pandas DataFrame cho bảng.",
+        "explanation": "Dưới đây là ví dụ trả về biểu đồ Plotly và một Dataframe hiển thị dưới dạng bảng.",
+        "code": "import pandas as pd\nimport plotly.express as px\n\ndata = {'Tháng': ['T1', 'T2', 'T3', 'T4'], 'Doanh thu': [150, 200, 300, 250]}\nresult_df = pd.DataFrame(data)\n\nfig = px.bar(result_df, x='Tháng', y='Doanh thu', title='Demo Plotly & Table', color='Tháng')"
+    },
+    "error": {
+        "raw_response": "{\"steps\": [{\"explanation\": \"Xác định yêu cầu\", \"output\": \"Tạo code lỗi để test UI.\"}], \"explanation\": \"Đây là đoạn code cố tình gây ra lỗi ZeroDivisionError để test UI.\", \"code\": \"# Cố tình gây lỗi chia cho 0\\na = 10\\nb = 0\\nprint(a / b)\"}",
+        "thinking": "1. Xác định yêu cầu → Tạo code lỗi để test UI.",
+        "explanation": "Đây là đoạn code cố tình gây ra lỗi ZeroDivisionError để test UI.",
+        "code": "# Cố tình gây lỗi chia cho 0\na = 10\nb = 0\nprint(a / b)"
+    },
+    "fix": {
+        "raw_response": "{\"steps\": [{\"explanation\": \"Phân tích lỗi\", \"output\": \"Lỗi chia cho 0 (ZeroDivisionError).\"}, {\"explanation\": \"Cách sửa\", \"output\": \"Thêm kiểm tra điều kiện b != 0 trước khi chia.\"}], \"explanation\": \"Xin lỗi, đoạn code trước bị lỗi chia cho 0. Tôi đã sửa lại bằng cách kiểm tra điều kiện trước khi chia.\", \"code\": \"a = 10\\nb = 0\\nif b != 0:\\n    print(a / b)\\nelse:\\n    print('Không thể chia cho 0!')\"}",
+        "thinking": "1. Phân tích lỗi → Lỗi chia cho 0 (ZeroDivisionError).\n2. Cách sửa → Thêm kiểm tra điều kiện b != 0 trước khi chia.",
+        "explanation": "Xin lỗi, đoạn code trước bị lỗi chia cho 0. Tôi đã sửa lại bằng cách kiểm tra điều kiện trước khi chia.",
+        "code": "a = 10\nb = 0\nif b != 0:\n    print(a / b)\nelse:\n    print('Không thể chia cho 0!')"
+    },
+    "real_data": {
+        "raw_response": "{\"steps\": [{\"explanation\": \"Xác định yêu cầu\", \"output\": \"Cần xem cấu trúc dữ liệu bảng df chính.\"}, {\"explanation\": \"Chọn DataFrame\", \"output\": \"Dùng df (bảng chính) và lấy 10 dòng đầu bằng head(10).\"}], \"explanation\": \"Tôi sẽ phân tích bộ dữ liệu thực tế bằng cách lấy 10 dòng đầu của dataframe df.\", \"code\": \"# Lấy 10 dòng đầu tiên của dataframe chính\\nresult_df = df.head(10)\\nprint(f\\\"Đã lấy {len(result_df)} dòng.\\\")\"}",
+        "thinking": "1. Xác định yêu cầu → Cần xem cấu trúc dữ liệu bảng df chính.\n2. Chọn DataFrame → Dùng df (bảng chính) và lấy 10 dòng đầu bằng head(10).",
+        "explanation": "Tôi sẽ phân tích bộ dữ liệu thực tế bằng cách lấy 10 dòng đầu của dataframe df.",
+        "code": "# Lấy 10 dòng đầu tiên của dataframe chính\nresult_df = df.head(10)\nprint(f\"Đã lấy {len(result_df)} dòng.\")"
+    }
+}
